@@ -1,0 +1,66 @@
+h1 {
+    font-family: "Rubik", serif;
+    font-size: 40px;
+}
+#img {
+    border-radius: 100px;
+    background: url(Foto.jpg);
+    background-repeat: repeat;
+    background-size: 150px;
+    padding: 50px; 
+    width: 50px;
+    height: 50px;
+}
+body {
+    background-color: rgb(212, 236, 255);
+}
+.boton1 {
+    background-color: #9999ff;
+    border: 2px solid;
+    border-color: black;
+    padding: 5px;
+    color: black;
+    text-align: center;
+    width: 30px;
+    margin: auto;
+}
+.boton1:hover {
+    background-color: rgb(60, 255, 60);
+}
+.boton2 {
+    background-color: #9999ff;
+    border: 2px solid;
+    border-color: black;
+    padding: 5px;
+    text-align: center;
+    width: 30px;
+    margin: auto;
+}
+.boton2:hover {
+    background-color:tomato;
+}
+h3 {
+    font-size: 25px;
+    font-family: "Rubik", serif;
+    text-align: center;
+}
+.thx {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.descripcion {
+    font-size: 18px;
+}
+.descripcion2 {
+    font-size: 18px;
+}
+.javasc {
+    font-family: "Rubik", serif;
+}
+#cambiodecolor {
+    font-family: "Rubik", serif;
+}
+.Gracias {
+    text-align: center;
+    font-size: 18px;
+}
