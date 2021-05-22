@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: #102136;
+}
+
+.textoinicial {
+  font-family: "Rubik", serif;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.Todoeltexto {
+  width: 1000px;
+  margin: auto;
+  padding: 15px 20px;
+  background: rgb(0, 0, 0);
+  color: #fff;
+}
+  
+  h2 {
+    font-family: "Rubik", serif;
+    font-size: 24px;
+  }
+  
+  b {
+    font-family: "Rubik", serif;
+  }
+
+  .txt{
+    font-size: 23px;
+  }
+  
+  p {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+  }
+  
+  .Inf {
+    background-color: #112b2b;
+    text-align: center;
+    padding: 3px;
+  }
+  
+  .fotos{
+    width: 250;
+    height: 250px;
+  }
+  
+  ul{
+      font-size: 16px;
+      font-family: "Roboto", sans-serif;
+  }
+  /* BARRA DE MENÚ */
+  
+  .barra {
+    width: 1000px;
+    margin: 30px auto;
+    background: #222222;
+    margin-bottom: 0px;
+  }
+  
+  .barra ul {
+    list-style: none;
+  }
+  
+  /* MENU */
+  
+  .menu {
+    margin-bottom: 0px;
+  }
+  
+  .menu > li {
+    display: inline-block;
+  }
+  
+  .menu > li > a {
+    display: block;
+    padding: 15px 20px;
+    color: #002b7a;
+    font-family: "Rubik", serif;
+    font-size: 15px;
+    text-decoration: none;
+  }
+  
+  .menu li a:hover {
+    color: #14a1a1;
+    transition: all .2s;
+  }
+  
+  /* SUBMENU */
+  
+  .submenu {
+    position: absolute;
+    background: #262d35;
+    display: none;
+  }
+  
+  .submenu li a {
+    display: block;
+    padding: 15px;
+    color: #fff;
+    font-family: "Rubik", serif;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .menu li:hover .submenu {
+    display: block;
+  }  
